@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --axis-black: #08060d;
+  --axis-dark: #120b1c;
+  --axis-purple: #6d28d9;
+  --axis-purple-soft: #a855f7;
+  --axis-cream: #fff7ed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--axis-black);
+  color: white;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+::selection {
+  background: var(--axis-purple);
+  color: white;
+}
+
+.bg-axis-black {
+  background-color: var(--axis-black);
+}
+
+.bg-axis-dark {
+  background-color: var(--axis-dark);
+}
+
+.text-axis-cream {
+  color: var(--axis-cream);
+}
+
+.text-axis-purple {
+  color: var(--axis-purple-soft);
+}
